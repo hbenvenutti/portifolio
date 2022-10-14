@@ -152,11 +152,11 @@
                       para que as suas aulas sejam adicionadas a plataforma.
                     </p>
 
-                    <p>
+                    <!-- <p>
                       As diretrizes do google dizem que se o criador original permitir, pode-se fazer 
                       o download do vídeo. O que permite um uso offline estilo netflix. Só é preciso
                       administrar quais professores/insituições permitem o download de suas aulas.
-                    </p>
+                    </p> -->
 
                   </p>
                 </div>
@@ -204,21 +204,38 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 1</h3>
+                <h3 class="project-wrapper__text-title">Pokedex</h3>
                 <div>
                   <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
+                    Aplicação web de uma Pokedex. Serve para listar e buscar pelos monstrinhos.
+
+                    A aplicação tem seu frontend e backend separados e eu planejo fazer um aplicativo
+                    mobile que também acessa a api.
+                  </p>
+
+                  <p>
+                    O front foi feito com Typescript, React e Vite. E o deploy foi feito no Netlify.
+                    São basicamente duas páginas. Uma para listar ou pesquisar os pokemons e outra 
+                    com os dados individuais de cada um.
+                  </p>
+                  <p>
+                    A API foi feita com Node.js, Typescript, Nest, Prisma e MongoDB.
+
+                    Eu só a criei porque estava insatisfeito com a PokeApi. 
+                    O problema da PokeApi está na listagem de pokemons, que só retorna
+                    uma url e um nome. Ela só retorna as informações do pokemon quando se busca 
+                    especificamente por ele.
+                    
+                    Para essa aplicação eu precisava de todas as informações já na listagem.
+
+                    Autenticação não é necessária.
                   </p>
                 </div>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="#!"
+                  href="https://charming-gnome-078968.netlify.app/"
                 >
                   See Live
                 </a>
@@ -226,7 +243,7 @@
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn text-color-main"
-                  href="#!"
+                  href="https://github.com/hbenvenutti/pokedex"
                 >
                   Source Code
                 </a>
@@ -245,7 +262,7 @@
                     <img
                       alt="Project Image"
                       class="img-fluid"
-                      src="assets/project.jpg"
+                      src="assets/pokedex.png"
                     />
                   </div>
                 </a>
@@ -258,21 +275,30 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 2</h3>
+                <h3 class="project-wrapper__text-title">Biblioteca</h3>
                 <div>
                   <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
+                    Um CRUD de biblioteca com backend e frontend separados.
+
+                    O backend usa Node.js, Typescript, Express.js e o banco de dados Firestore.
+
+                    O frontend usa Typescript, React e vite.
+
+                    Features: 
+                    <ul class="list">
+                      <li>Testes unitários e de integração na api.</li>
+                      <li>Autenticação implementada no front e no backend.</li>
+                      <li>Validação de dados no client e no server.</li>
+                      <li>O banco de dados está hospedado no google.</li>
+                      <li>O front está hospedado no netlif.</li>
+                    </ul>
                   </p>
                 </div>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="#!"
+                  href="https://eclectic-duckanoo-3696bd.netlify.app/"
                 >
                   See Live
                 </a>
@@ -280,10 +306,18 @@
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn text-color-main"
-                  href="#!"
+                  href="https://github.com/hbenvenutti/biblioteca-front"
                 >
-                  Source Code
+                  Frontend
                 </a>
+                <a
+                rel="noreferrer"
+                target="_blank"
+                class="cta-btn text-color-main"
+                href="https://github.com/hbenvenutti/biblioteca-backend"
+              >
+                Backend
+              </a>
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
@@ -299,7 +333,7 @@
                     <img
                       alt="Project Image"
                       class="img-fluid"
-                      src="assets/project.jpg"
+                      src="assets/biblioteca.png"
                     />
                   </div>
                 </a>
